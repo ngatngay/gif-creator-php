@@ -1,33 +1,34 @@
 {
-    "name": "ngatngay/gif-creator-php",
-    "type": "library",
-    "description": "PHP class that creates animated GIF from multiple images",
-    "keywords": [
-        "gif",
-        "animated",
-        "creation",
-        "encode",
-        "PHP"
-    ],
-    "homepage": "https://github.com/ngatngay/gif-creator-php",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Clément Guillemain",
-            "homepage": "http://clementguillemain.fr",
-            "role": "Developer / Freelancer"
-        },
-        {
-            "name": "NgatNgay",
-            "role": "Developer / Freelancer"
-        }
-    ],
-    "require": {
-        "php": ">=7.4"
+  "name": "ngatngay/gif-creator-php",
+  "type": "library",
+  "description": "PHP class that creates animated GIF from multiple images",
+  "keywords": [
+    "gif",
+    "animated",
+    "creation",
+    "encode",
+    "PHP"
+  ],
+  "homepage": "https://github.com/ngatngay/gif-creator-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Clément Guillemain",
+      "homepage": "http://clementguillemain.fr",
+      "role": "Developer / Freelancer"
     },
-    "autoload": {
-        "classmap": [
-            "src/"
-        ]
+    {
+      "name": "NgatNgay",
+      "role": "Developer / Freelancer",
+      "homepage": "https://ngatngay.net"
     }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
 }
